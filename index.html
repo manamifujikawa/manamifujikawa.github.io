@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvey Norman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="headerhome">
+        <nav>
+            <a href="index.html"><img src="images/hvlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <image class="close" src="images/close.png" onclick="hideMenu()"></image>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="index.html">SHOP</a></li>
+                        <li><a href="">SEARCH</a></li>
+                        <li><a href="">MY CART</a></li>
+                 </ul>
+            </div>
+            <img class="close" src="images/menu.jpeg" onclick="showMenu()"></img>
+        </nav>
+
+    <div class="text-box">
+        <h1>SALE</h1>
+        <h3>50% off Selected Items</h3>
+        <p>Terms and Conditions Apply</p>
+        <a href="" class="hero-btn">Explore</a>
+    </div>
+
+    </section>
+<!----browse----->
+<section class="browse">
+    <h1>Browse Our Products</h1>
+
+    <div class="row1">
+      <a href="electronics.html" style="text-decoration:none" class="course-col">
+            <h3>Electronics</h3>
+            <p>Prepare for the new year.</p>
+      </a>
+        <div class="course-col">
+            <h3>Home Appliances</h3>
+            <p>Gear up with the newest products.</p>
+        </div>
+        <div class="course-col">
+            <h3>Rooms</h3>
+            <p>Makeover for the new year.</p>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="course-col">
+            <h3>Gifts</h3>
+            <p>For your loved ones.</p>
+        </div>
+        <div class="course-col">
+            <h3>Others</h3>
+            <p>Toys, Pet Supplies, Travel.</p>
+        </div>
+        <div class="course-col">
+            <h3>Catalogue</h3>
+            <p>Top picks, best deals.</p>
+        </div>
+    </div>
+
+</section>  
+
+
+
+  <!---JacaScript for Toggle Menu --->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
