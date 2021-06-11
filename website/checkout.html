@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvey Norman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/hvlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <image class="close" src="images/close.png" onclick="hideMenu()"></image>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="index.html">SHOP</a></li>
+                        <li><a href="">SEARCH</a></li>
+                        <li><a href="mycart.html">MY CART</a></li>
+                 </ul>
+            </div>
+            <img class="close" src="images/menu.jpeg" onclick="showMenu()"></img>
+        </nav>
+
+    </section>
+
+<section>
+    <div class="col-75">
+      <div class="container">
+        <form action="thankyou.html">
+  
+          <div class="row">
+            <div class="line">
+            <div class="col-50">
+              <h3>Billing Address</h3>
+              <label for="fname"> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+              <label for="email"> Email</label>
+              <input type="text" id="email" name="email" placeholder="john@example.com">
+              <label for="adr">Address</label>
+              <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="New York">
+  
+              <div class="row">
+                <div class="col-50">
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state" placeholder="NY">
+                </div>
+                <div class="col-50">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="10001">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-50">
+              <h3>Payment</h3>           
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+  
+              <div class="row">
+                <div class="col-50">
+                  <label for="expyear">Exp Year</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="2018">
+                </div>
+                <div class="col-50">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                </div>
+              </div>
+            </div>
+    <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+          </label>
+          </div>
+          <div class="col-25">
+            <b></b>
+        <hr>
+        <h2>Total <b>$2,222.64</b></h2>
+      </div>
+    </div>
+  </div> 
+
+          <input type="submit" value="Continue to checkout" class="btn">
+          <a href="thankyou.html" class="btn"></a>
+
+        </form>
+      </div>
+    </div>
+  
+   
+
+  </body>
+</section>
+  </html>

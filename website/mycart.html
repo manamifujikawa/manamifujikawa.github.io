@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvey Norman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<html>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/hvlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <image class="close" src="images/close.png" onclick="hideMenu()"></image>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="index.html">SHOP</a></li>
+                        <li><a href="">SEARCH</a></li>
+                        <li><a href="mycart.html">MY CART</a></li>
+                 </ul>
+            </div>
+            <img class="close" src="images/menu.jpeg" onclick="showMenu()"></img>
+        </nav>
+    </section>
+<section>
+<!----cart item details-->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/mac.jpg">
+                <div>
+                    <p>Apple iMac 15 24-inch</p>
+                    <small>Price: $1,970.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$1,970.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/airpods.jpeg">
+                <div>
+                    <p>Apple Airpods</p>
+                    <small>Price: $189.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$189.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/applecare.png">
+                <div>
+                    <p>Apple Care+</p>
+                    <small>Price: $199.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$199.00</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$2058.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>$164.64</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$2222.64</td>
+            </tr>
+        </table>
+
+</div>
+
+<div>    <a href="checkout.html" class="sumbitbtn"> <input type="submit" value="Continue to checkout" class="submitbtn"></a> 
+   
+    </div>
+
+</section>
+
+
+  </html>
